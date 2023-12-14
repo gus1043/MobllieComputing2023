@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Simple Diary</string>
+    <string name="hint_no_diary">일기 없음</string>
+    <string name="btn_save">저장하기</string>
+    <string name="btn_edit">수정하기</string>
+    <string name="toast_empty_content">일기 내용을 입력해주세요.</string>
+    <string name="toast_save_success">일기가 저장되었습니다.</string>
+</resources>

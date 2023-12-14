@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter a value"
+            android:imeOptions="actionDone"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/pushButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Push" />
+
+        <Button
+            android:id="@+id/popButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pop" />
+
+        <Button
+            android:id="@+id/viewButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Heap" />
+
+        <Button
+            android:id="@+id/visualizationButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Visualize Heap" />
+
+        <TextView
+            android:id="@+id/logTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textColor="@android:color/black" />
+
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <FrameLayout
+                    android:id="@+id/binaryTreeLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" />
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</LinearLayout>

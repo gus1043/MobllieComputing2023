@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Week6</string>
+    <string name="prev">prev</string>
+    <string name="next">next</string>
+    <string name="longtext">Tutorialwing.com presents tutorial on NestedScrollView!
+NestedScrollView is just like ScrollView, but it supports acting
+as both a nested scrolling parent and child on both new and
+old versions of Android. Nested scrolling is enabled by default.
+NestedScrollView is used when there is need for scrolling
+inside another scrolling view. Normally this would be difficult.</string>
+</resources>

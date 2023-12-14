@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">gridlayout</string>
+    <string name="button1">B1</string>
+    <string name="button2">B2</string>
+    <string name="button3">B3</string>
+    <string name="button4">B4</string>
+    <string name="button5">B5</string>
+    <string name="button6">B6</string>
+    <string name="results">Results: %s</string>
+    <string name="title">코딩 &amp; 공부할 때 듣는 음악 - 집중할 때 듣기 좋은 편안한 Lo-Fi 재즈</string>
+    <string name="tag">Musictag \u2022 조회수 857만회 \u2022 1년전</string>
+    <string name="dot">&#8942;</string>
+    <string name="title_activity_main2">MainActivity2</string>
+</resources>

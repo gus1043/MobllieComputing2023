@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">layout</string>
+    <string name="button1">button1</string>
+    <string name="button2">button2</string>
+    <string name="button3">button3</string>
+    <string name="button4">button4</string>
+
+    <string name="red">red</string>
+    <string name="blue">blue</string>
+    <string name="green">green</string>
+
+
+    <string name="dot">&#8942;</string>
+    <string name="title">코딩 &amp; 공부할 때 듣는 음악 - 집중할때 듣기 좋은 편안한 Lo-Fi 재즈</string>
+    <string name="tag">Musictag \u2022 조회수 857만회\u2022 1년전</string>
+</resources>

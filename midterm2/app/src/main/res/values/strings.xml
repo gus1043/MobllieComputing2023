@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">midterm2</string>
+    <string name="lab1">%s</string>
+    <string name="lab2">%s</string>
+    <string name="lab3">%s</string>
+    <string name="lab4">%s</string>
+    <string name="lab5">%s</string>
+</resources>

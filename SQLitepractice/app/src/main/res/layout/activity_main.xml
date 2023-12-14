@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:columnCount="2">
+
+        <TextView
+            android:text="순위:"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/rank"
+            android:layout_gravity="fill_horizontal" />
+
+        <TextView
+            android:text="가수:"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/artist"
+            android:layout_gravity="fill_horizontal" />
+
+        <TextView
+            android:text="제목:"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/title"
+            android:layout_gravity="fill_horizontal" />
+
+        <TextView
+            android:text="앨범:"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/album"
+            android:layout_gravity="fill_horizontal" />
+
+        <TextView
+            android:text="좋아요:"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/numLike"
+            android:layout_gravity="fill_horizontal" />
+
+        <Button
+            android:id="@+id/submit"
+            android:text="등록"
+            android:background="@drawable/radius"/>
+
+    </GridLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+</LinearLayout>

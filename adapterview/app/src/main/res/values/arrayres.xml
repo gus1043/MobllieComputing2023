@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="foods_array">
+        <item>"마라샹궈"</item>
+        <item>"크로플"</item>
+        <item>"아인슈페너"</item>
+    </string-array>
+</resources>
